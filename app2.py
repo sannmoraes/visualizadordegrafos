@@ -187,7 +187,7 @@ def busca_dfs(grafo, start):
                   
      
 )
-def atualizar_grafo(n_clicks_carregar_grafo, salvar_grafo, adicionar_vertice, remover_vertice, adicionar_aresta, remover_aresta, selectedNodeData,  tipo_grafo, peso_aresta, selectedEdgeData,  n_clicks_bfs, n_clicks_dfs):
+def atualizar_grafo(n_clicks_carregar_grafo, salvar_grafo_clicks, adicionar_vertice, remover_vertice, adicionar_aresta, remover_aresta, selectedNodeData, tipo_grafo, peso_aresta, selectedEdgeData,  n_clicks_bfs, n_clicks_dfs):
     global G
     pesos_originais = {}
     ctx = dash.callback_context
