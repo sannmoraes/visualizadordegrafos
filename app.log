@@ -1,0 +1,301 @@
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ERROR:werkzeug:127.0.0.1 - - [04/Sep/2024 17:43:56] code 400, message Bad request syntax ('\x16\x03\x01\x00ä\x01\x00\x00à\x03\x037\x8d$¼')
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+selectedEdgeData:
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': 'carregar-grafo.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'adicionar-vertice.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'adicionar-aresta.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'B-E', 'source': 'B', 'target': 'E', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': []}, {'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'B', 'label': 'B'}]}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'B', 'label': 'B'}, {'id': 'J', 'label': 'J'}]}]
+Contexto do Callback:
+[{'prop_id': 'adicionar-aresta.n_clicks', 'value': 2}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': []}, {'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'D-F', 'source': 'D', 'target': 'F', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 1}]
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': 'carregar-grafo.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'E-G', 'source': 'E', 'target': 'G', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'C-E', 'source': 'C', 'target': 'E', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 2}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'B-E', 'source': 'B', 'target': 'E', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 3}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'B-D', 'source': 'B', 'target': 'D', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 4}]
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': 'carregar-grafo.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'F-H', 'source': 'F', 'target': 'H', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'H-J', 'source': 'H', 'target': 'J', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 2}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'F-I', 'source': 'F', 'target': 'I', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 3}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'G-I', 'source': 'G', 'target': 'I', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 4}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'D-F', 'source': 'D', 'target': 'F', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 5}]
+Contexto do Callback:
+[{'prop_id': 'tipo-grafo.value', 'value': 'directed'}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': []}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': []}]
+Contexto do Callback:
+[{'prop_id': 'carregar-grafo.n_clicks', 'value': 2}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'B-E', 'source': 'B', 'target': 'E', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 6}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 7}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'A-C', 'source': 'A', 'target': 'C', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 8}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': []}, {'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'J', 'label': 'J'}]}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'J', 'label': 'J'}, {'id': 'E', 'label': 'E'}]}]
+Contexto do Callback:
+[{'prop_id': 'adicionar-vertice.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'C', 'label': 'C'}]}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'C', 'label': 'C'}, {'id': 'H', 'label': 'H'}]}]
+Contexto do Callback:
+[{'prop_id': 'adicionar-aresta.n_clicks', 'value': 1}]
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': 'carregar-grafo.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'F-H', 'source': 'F', 'target': 'H', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'E-H', 'source': 'E', 'target': 'H', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 2}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'E-G', 'source': 'E', 'target': 'G', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 3}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'C-E', 'source': 'C', 'target': 'E', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 4}]
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': 'carregar-grafo.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'E-H', 'source': 'E', 'target': 'H', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 1}]
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': '.', 'value': None}]
+Contexto do Callback:
+[{'prop_id': 'carregar-grafo.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'C-E', 'source': 'C', 'target': 'E', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'B-D', 'source': 'B', 'target': 'D', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 1}]
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'B-E', 'source': 'B', 'target': 'E', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 2}]
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'A-B', 'source': 'A', 'target': 'B', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 3}]
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': [{'id': 'A-D', 'source': 'A', 'target': 'D', 'label': ''}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-aresta.n_clicks', 'value': 4}]
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Contexto do Callback:
+[{'prop_id': 'adicionar-vertice.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedEdgeData', 'value': []}, {'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'B', 'label': 'B'}]}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'B', 'label': 'B'}, {'id': 'K', 'label': 'K'}]}]
+Contexto do Callback:
+[{'prop_id': 'adicionar-aresta.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'F', 'label': 'F'}]}]
+Contexto do Callback:
+[{'prop_id': 'remover-vertice.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': []}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'B', 'label': 'B'}]}]
+Contexto do Callback:
+[{'prop_id': 'dfs.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': [{'id': 'G', 'label': 'G'}]}]
+Contexto do Callback:
+[{'prop_id': 'bfs.n_clicks', 'value': 1}]
+Contexto do Callback:
+[{'prop_id': 'grafo.selectedNodeData', 'value': []}]
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Erro: selectedEdgeData não está no formato esperado ou está vazio.
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Erro: selectedEdgeData não está no formato esperado ou está vazio.
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Erro: selectedEdgeData não está no formato esperado ou está vazio.
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Erro: selectedEdgeData não está no formato esperado ou está vazio.
+Tipo de selectedEdgeData: <class 'str'>
+Conteúdo de selectedEdgeData: none
+Erro: selectedEdgeData não está no formato esperado ou está vazio.

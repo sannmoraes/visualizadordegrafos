@@ -1,0 +1,5 @@
+networkx
+dash
+dash-cytoscape
+scipy
+dash-bootstrap-components
