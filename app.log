@@ -299,3 +299,9 @@ Erro: selectedEdgeData não está no formato esperado ou está vazio.
 Tipo de selectedEdgeData: <class 'str'>
 Conteúdo de selectedEdgeData: none
 Erro: selectedEdgeData não está no formato esperado ou está vazio.
+Dash is running on http://127.0.0.1:8043/
+
+INFO:dash.dash:Dash is running on http://127.0.0.1:8043/
+
+ * Serving Flask app 'appseinoqueaconteceu'
+ * Debug mode: on

@@ -4,7 +4,7 @@ import sys
 import os
 import dash_cytoscape as cyt
 from dash import html, dcc
-from dash.dependencies import Input, Output, State
+from dash.dependencies import Input, Output
 from scipy.optimize import linear_sum_assignment
 import dash_bootstrap_components as dbc
 
@@ -54,14 +54,6 @@ app.layout = dbc.Container([
                 html.Button('Executar DFS', id='dfs', n_clicks=0),
             ], style={'marginBottom': '20px'}),
             
-                        
-            html.Div([
-                html.Label('Peso da Aresta:'),
-                dcc.Input(id='peso-aresta-input', type='number', value=1),
-                html.Button('Aplicar Peso', id='aplicar-peso', n_clicks=0),
-            ], style={'marginBottom': '20px'}),
-
-
             html.Div(id='grafo-info', style={'marginTop': '20px'})
 
         ], width=3),
@@ -72,9 +64,6 @@ app.layout = dbc.Container([
                 layout={'name': 'cose'},
                 style={'width': '100%', 'height': '800px'},
                 elements=[],
-                minZoom=0.5,
-                maxZoom=2,
-                
             ),
         ], width=9),
     ]),
@@ -164,19 +153,15 @@ def busca_dfs(grafo, start):
         vertex = stack.pop()
         if vertex not in visited:
             visited.append(vertex)
-        neighbors = grafo.successors(vertex) if isinstance(grafo, nx.DiGraph) else grafo.neighbors(vertex)
-        for neighbor in neighbors:
-            if neighbor not in visited:
-                stack.append(neighbor)
-                if isinstance(grafo, nx.DiGraph):
-                    edges_visited.add((vertex, neighbor))
-                else:
-                    edges_visited.add((vertex, neighbor))
-                    edges_visited.add((neighbor, vertex))
-        for i in grafo.neighbors(vertex):  
-            if i not in visited:
-                visited.append(i)     
-        print(edges_visited)
+            neighbors = grafo.successors(vertex) if isinstance(grafo, nx.DiGraph) else grafo.neighbors(vertex)
+            for neighbor in neighbors:
+                if neighbor not in visited:
+                    stack.append(neighbor)
+                    if isinstance(grafo, nx.DiGraph):
+                        edges_visited.add((vertex, neighbor))
+                    else:
+                        edges_visited.add((vertex, neighbor))
+                        edges_visited.add((neighbor, vertex))
     return visited, edges_visited
 
 @app.callback(
@@ -194,24 +179,19 @@ def busca_dfs(grafo, start):
      Input('peso-aresta', 'value'),
      Input('grafo', 'selectedEdgeData'),
      Input('bfs', 'n_clicks'),
-     Input('dfs', 'n_clicks'),
-     Input('aplicar-peso', 'n_clicks')],
-     [State('peso-aresta-input', 'value')]    
+     Input('dfs', 'n_clicks')]    
 )
 
-
-
-def atualizar_grafo(n_clicks_carregar_grafo, salvar_grafo_clicks, adicionar_vertice, remover_vertice, adicionar_aresta, remover_aresta, selectedNodeData, tipo_grafo, peso_aresta, selectedEdgeData,  n_clicks_bfs, n_clicks_dfs, n_clicks_aplicar_peso, peso_entrada):
+def atualizar_grafo(n_clicks_carregar_grafo, salvar_grafo_clicks, adicionar_vertice, remover_vertice, adicionar_aresta, remover_aresta, selectedNodeData, tipo_grafo, peso_aresta, selectedEdgeData,  n_clicks_bfs, n_clicks_dfs):
     global G
     pesos_originais = {}
-    pesos_atualizados = {}  
     ctx = dash.callback_context
     informacoes_grafo = calcular_informacoes_grafo()
     stylesheet = [
         {
             'selector': 'edge',
             'style': {
-                'width': 8,
+                'width': 2,
                 'line-color': '#888',
                 'target-arrow-color': '#888',
                 'target-arrow-shape': 'triangle' if tipo_grafo == 'directed' else 'none',
@@ -239,17 +219,10 @@ def atualizar_grafo(n_clicks_carregar_grafo, salvar_grafo_clicks, adicionar_vert
 
                 # Atualiza o tipo de grafo
         if prop_id == 'tipo-grafo':
-            novos_nos = G.nodes(data=True)
-            novas_arestas = G.edges(data=True)
             if tipo_grafo == 'directed':
-                novo_G = nx.DiGraph()
+                G = nx.DiGraph()  
             else:
-                 novo_G = nx.Graph()
-    
-            novo_G.add_nodes_from(novos_nos)
-            novo_G.add_edges_from(novas_arestas)
-    
-            G = novo_G
+                G = nx.Graph()    
 
         # Atualiza o peso das arestas
         if prop_id == 'peso-aresta':
@@ -297,25 +270,6 @@ def atualizar_grafo(n_clicks_carregar_grafo, salvar_grafo_clicks, adicionar_vert
                 target = edge_selecionada['target']
                 if G.has_edge(source, target):
                     G.remove_edge(source, target)
-
-        elif prop_id == 'aplicar-peso':
-            if selectedEdgeData:                
-                edge_selecionada = selectedEdgeData[0]
-                source = edge_selecionada['source']
-                target = edge_selecionada['target']
-                
-                if isinstance(G, nx.DiGraph):
-                    edge = (source, target)
-                else:
-                    edge = (min(source, target), max(source, target))
-                
-                if edge in G.edges():
-                    G[edge[0]][edge[1]]['weight'] = peso_entrada                    
-                    for u, v in G.edges():
-                        if (u, v) != edge:
-                            if 'weight' not in G[u][v]:
-                                G[u][v]['weight'] = 1
-
 
 
         elif prop_id == 'bfs':
@@ -392,8 +346,8 @@ def atualizar_grafo(n_clicks_carregar_grafo, salvar_grafo_clicks, adicionar_vert
     
 
 
-    return elementos_grafo, stylesheet, informacoes_grafo 
+    return elementos_grafo, stylesheet, informacoes_grafo, 
     
 # Executar a aplicação
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8139)
+    app.run_server(debug=True, port=8137)
